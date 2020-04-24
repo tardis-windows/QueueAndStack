@@ -2,9 +2,9 @@
 public class Person {
 	
 	// member variables 
-	private String lastName; 
-	private String firstName; 
-	private int age; 
+	private String lastName; 	// first name
+	private String firstName; 	// last name
+	private int age; 		//age
 
 	//constructor 
 	public Person(String firstName, String lastName, int age)
@@ -33,5 +33,6 @@ public class Person {
 	{
 		System.out.printf("Name: %s %s\nAge: %d\n", firstName, lastName, age);
 	}
+	
 	
 }
