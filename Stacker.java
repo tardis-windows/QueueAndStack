@@ -5,8 +5,8 @@ public class Stacker {
 	private int[] arrStack; // array for stack of longs
 	private int top; // top of stack
 	
-	// constructor
-	public Stacker(int stackSize)
+	// constructor 
+	public Stacker(int stackSize)  
 	{
 		this.stackSize = stackSize; 
 		this.arrStack = new int[stackSize]; // initialize arrstack
@@ -27,7 +27,7 @@ public class Stacker {
 	}
 	
 	
-	// pop function
+	// pop function: adds items to the stack 
 	public int pop()	//return the top item
 	{
 		int returned;  
