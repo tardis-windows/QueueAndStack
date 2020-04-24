@@ -13,8 +13,8 @@ public class Stacker {
 		this.top = -1;  // no items, at one top = 0
 	}
 	
-	// push function
-	public void push(int pushedElement) // add items to top of stack
+	// push function: adds items to the stack 
+	public void push(int pushedElement) 
 	{
 		if(!isFull()) { // check if it's full
 			top++; // increment top
@@ -27,7 +27,7 @@ public class Stacker {
 	}
 	
 	
-	// pop function: adds items to the stack 
+	// pop function: removes items from the stack 
 	public int pop()	//return the top item
 	{
 		int returned;  
